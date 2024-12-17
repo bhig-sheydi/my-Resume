@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import prpfilepic from "../assets/WhatsApp Image 2024-12-17 at 04.52.47_9033a615.jpg";
 
 function ResumePage() {
@@ -29,8 +29,16 @@ function ResumePage() {
         </div>
       </section>
 
-      {/* Skills Section */}
+      {/* Contact Information Section */}
       <section className="bg-blue-50 shadow-md rounded-lg p-6 md:p-8 mt-6 md:mt-8 mx-4 md:mx-auto max-w-4xl">
+        <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-blue-800">Contact Information</h2>
+        <p className="text-gray-700 text-sm md:text-lg">
+          <strong>Phone:</strong> 09165311630
+        </p>
+      </section>
+
+      {/* Skills Section */}
+      <section className="bg-white shadow-md rounded-lg p-6 md:p-8 mt-6 md:mt-8 mx-4 md:mx-auto max-w-4xl">
         <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-blue-800">Skills</h2>
         <ul className="list-disc pl-4 md:pl-6 text-sm md:text-lg text-gray-700">
           <li>HTML & CSS</li>
@@ -43,7 +51,7 @@ function ResumePage() {
       </section>
 
       {/* Projects Section */}
-      <section className="bg-white shadow-md rounded-lg p-6 md:p-8 mt-6 md:mt-8 mx-4 md:mx-auto max-w-4xl">
+      <section className="bg-blue-50 shadow-md rounded-lg p-6 md:p-8 mt-6 md:mt-8 mx-4 md:mx-auto max-w-4xl">
         <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-blue-800">Projects</h2>
         <p className="text-gray-700 text-sm md:text-lg">
           Below are some of the projects I have worked on. Click the links to view them:
@@ -55,7 +63,7 @@ function ResumePage() {
       </section>
 
       {/* Education Section */}
-      <section className="bg-blue-50 shadow-md rounded-lg p-6 md:p-8 mt-6 md:mt-8 mx-4 md:mx-auto max-w-4xl">
+      <section className="bg-white shadow-md rounded-lg p-6 md:p-8 mt-6 md:mt-8 mx-4 md:mx-auto max-w-4xl">
         <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-blue-800">Education</h2>
         <p className="text-gray-700 text-sm md:text-lg">
           <strong>National Institute of Information Technology (NIIT)</strong>
@@ -65,7 +73,7 @@ function ResumePage() {
       </section>
 
       {/* Experience Section */}
-      <section className="bg-white shadow-md rounded-lg p-6 md:p-8 mt-6 md:mt-8 mx-4 md:mx-auto max-w-4xl">
+      <section className="bg-blue-50 shadow-md rounded-lg p-6 md:p-8 mt-6 md:mt-8 mx-4 md:mx-auto max-w-4xl">
         <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-blue-800">Experience</h2>
         <div>
           <h3 className="font-semibold text-sm md:text-lg text-gray-900">Robotics Teacher</h3>
