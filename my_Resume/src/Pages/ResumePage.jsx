@@ -20,7 +20,7 @@ function ResumePage() {
           </div>
           <div>
             <p className="text-gray-700 text-sm md:text-lg leading-relaxed">
-              I am a passionate programmer with 4 years of experience in web development and robotics. Proficient in HTML, CSS, Java, and JavaScript, I specialize in JavaScript frameworks like React and work extensively with POJO classes. Currently, I teach Robotics at RENL (Robocation Edu Nigeria Limited), a branch of REPL, one of the biggest tech education agencies in India.
+              I am a passionate programmer with 4 years of experience in web development and robotics. Proficient in HTML, CSS, Java, and JavaScript, I specialize in JavaScript frameworks like React and work extensively with POJO classes. Currently, I teach Robotics at RENL (Robocation Edu Nigeria Limited), a branch of REPL, one of the biggest tech education companies in India.
             </p>
             <p className="mt-4 text-gray-700 text-sm md:text-lg leading-relaxed">
               I also run a small business, <strong>Walking Universe Enterprise</strong>, where I build websites for clients, helping businesses establish their online presence effectively.
@@ -72,7 +72,7 @@ function ResumePage() {
           <p className="text-gray-700 text-sm md:text-lg">
             <strong>RENL (Robocation Edu Nigeria Limited)</strong>
             <br />
-            A branch of REPL, one of the biggest tech education agencies in India.
+            A branch of REPL, one of the biggest tech education companies in India.
           </p>
         </div>
       </section>
