@@ -1,5 +1,6 @@
 import React from 'react'; 
 import prpfilepic from "../assets/WhatsApp Image 2024-12-17 at 04.52.47_9033a615.jpg";
+import { Phone, MessageCircle } from "lucide-react"; // Importing icons
 
 function ResumePage() {
   return (
@@ -30,12 +31,26 @@ function ResumePage() {
       </section>
 
       {/* Contact Information Section */}
-      <section className="bg-blue-50 shadow-md rounded-lg p-6 md:p-8 mt-6 md:mt-8 mx-4 md:mx-auto max-w-4xl">
-        <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-blue-800">Contact Information</h2>
-        <p className="text-gray-700 text-sm md:text-lg">
-          <strong>Phone:</strong> 09165311630
-        </p>
-      </section>
+      <div className="mt-6">
+      <h3 className="text-xl font-semibold text-blue-800 mb-4">Contact</h3>
+      <div className="flex items-center justify-center text-gray-700 text-sm md:text-lg mb-2">
+        <Phone className="mr-2 text-blue-600" />
+        <a href="tel:+2349165311630" className="hover:underline">
+          +234 916 531 1630
+        </a>
+      </div>
+      <div className="flex items-center justify-center text-gray-700 text-sm md:text-lg text-green-400">
+        <MessageCircle className="mr-2 text-green-400" />
+        <a
+          href="https://wa.me/message/N2FHQVQP7CTVA1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline"
+        >
+          WhatsApp me
+        </a>
+      </div>
+    </div>
 
       {/* Skills Section */}
       <section className="bg-white shadow-md rounded-lg p-6 md:p-8 mt-6 md:mt-8 mx-4 md:mx-auto max-w-4xl">
